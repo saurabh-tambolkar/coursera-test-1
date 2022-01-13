@@ -1,0 +1,150 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+div{
+    width: 25%;
+    padding: 15px;
+    border: 5px black solid;
+    margin: 40px;
+    background-color: rgb(131, 133, 133);
+}
+
+p{
+    font-size: 1.2em;
+}
+
+section{
+    margin-left: 135px;
+}
+
+
+
+
+#div1{
+    float: left;
+}
+#div1 span{
+    background-color: tomato;
+    font-size: 1.4em;
+    border: 5px black solid;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+#div2{
+    float: left;
+}
+#div2 span{
+    background-color: chocolate;
+    font-size: 1.4em;
+    border: 5px black solid;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+#div3{
+    float: left;
+}
+#div3 span{
+    background-color: chocolate;
+    font-size: 1.4em;
+    border: 5px black solid;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+
+@media (min-width:768px) and (max-width:991px)
+{
+    #div3{
+        clear: left;
+    }
+}
+
+@media (max-width:767px)
+{
+    #div2{
+        clear: left;
+    }
+    #div3{
+        clear: left;
+    }
+}*/
+
+
+@media (min-width:992px) and (max-width:1600px)
+{
+    #div1{
+        width: 18%;
+    }
+    #div2{
+        width: 18%;
+    }
+    #div3{
+        width: 18%;
+        clear: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    #div1{
+        width: 25%;
+    }
+    #div2{
+        width:25%;
+    }
+    #div3{
+        width: 65%;
+        clear: left;
+    }
+}
+
+@media (max-width:767px)
+{   
+    /* div{
+    margin: 100px;
+    } */
+
+    #div1{
+        width: 60%;
+        clear: left;
+    }
+    #div2{
+        width: 60%;
+        clear:left;
+    }
+    #div3{
+        width: 60%;
+        /* height: 50px; */
+        clear: left;
+        /*float: left; */
+    }
+}
