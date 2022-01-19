@@ -1,0 +1,79 @@
+body{
+    background-color: aliceblue;
+}
+
+.navbar{
+    background-color: rgb(129, 126, 126);
+}
+
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    font-size: 1.1em;
+    
+}
+
+.nav-link:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+h1{
+    color: black;
+    font-size: 1.7em;
+}
+hr{
+    color: black;
+}
+
+#div1{
+    background-color: gray;
+    color: black;
+    margin-top: 40px;
+}
+
+.row span{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    /* align-self: center; */
+    /* margin: 0 auto; */
+    padding-right: 50%;
+    padding-left: 50%;
+    padding-top: 20px;
+
+    /* position: relative;
+    bottom: 2px;
+    right: -300px; */
+    
+    /* padding-left: auto;
+    padding-right: auto;*/
+} 
+
+
+.row a{
+    font-style: italic;
+    color: rgb(4, 4, 128);
+    font-weight: 900;
+    
+}
+
+@media (max-width:567px) {
+    #div1{
+        width: 400px;
+        margin: 50px;
+    }
+    
+}
+
+
